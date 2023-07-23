@@ -1,7 +1,7 @@
 <div *ngFor="let skill of skills">
   <h3>Навички</h3>
-  <p>{{ skill.knowledge.languages }} {{ skill.knowledge.frameworks }}</p>
-  <p>{{ skill.certificates }}</p>
+  <p>Мова програмування: {{skill.knowledge.languages}} {{skill.knowledge.frameworks}}</p>
+  <p>Сертифікат: {{skill.certificates }}</p>
   <img [src]="skill.photo" alt="Img">
   <hr>
 </div>
