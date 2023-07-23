@@ -14,7 +14,7 @@ export class ResourcesComponent {
   resources: Array<IRes> = [
     {
       name: 'GitHub',
-      link: 'https://github.com/your_username'
+      link: 'https://github.com/Igor080100/Ang_Homework-2.git'
     },
   ];
 }
